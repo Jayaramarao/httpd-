@@ -1,0 +1,11 @@
+---
+- name: tomcat sever instaltion
+  hosts: webservers
+  become: true
+  vars_files: group_vars/main.yml
+
+  roles:
+    - jdk
+    - tomcat
+    - deploywar
+

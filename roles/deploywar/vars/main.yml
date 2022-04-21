@@ -1,0 +1,6 @@
+---
+NEXUS_IP: 34.222.165.129
+BUILD_NO: 6
+NEXUS_USER: admin
+NEXUS_PASS: admin123
+nexus_port: 8081

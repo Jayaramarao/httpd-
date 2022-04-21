@@ -1,0 +1,5 @@
+---
+- name: install java 1.8
+  yum:
+    name: "{{ jdk_version }}"
+    state: present
